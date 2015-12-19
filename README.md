@@ -35,6 +35,7 @@ Add fixby to your list of dependencies in `mix.exs` (when available in hex):
 def deps do
   [{:fixby, "~> 0.0.1"}]
 end
+```
 
 Then fetch it:
 

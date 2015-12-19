@@ -2,7 +2,7 @@
 
 FIXBY comments that raise after a given version of Elixir.
 
-This is basically a copy of https://github.com/henrik/fixme-elixir, which raises after a certain date.
+This started as a copy of https://github.com/henrik/fixme-elixir, which raises after a certain date.
 
     defmodule MyCode do
       import FIXBY
@@ -41,3 +41,6 @@ Then fetch it:
 
     mix test
 
+## Desired fetures
+
+It would be nice to have the ability to specify a version of the current application or one of its dependencies in addition to the version of Elixir.

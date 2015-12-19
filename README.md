@@ -4,14 +4,16 @@ FIXBY comments that raise after a given version of Elixir.
 
 This started as a copy of https://github.com/henrik/fixme-elixir, which raises after a certain date.
 
-    defmodule MyCode do
-      import FIXBY
+``` elixir
+defmodule MyCode do
+  import FIXBY
 
-      def my_function do
-        fixby "1.2.0", "Stop nesting case statements and use with."
-        # ...
-      end
-    end
+  def my_function do
+    fixby "1.2.0", "Stop nesting case statements and use with."
+    # ...
+  end
+end
+```
 
 This is useful when you know that something is coming in the next version of the language and want to remember to come back and re-evaluate how it can be improved with the new language feature.
 
@@ -29,9 +31,10 @@ Protip: make sure it's clear from the exception or from a separate comment just 
 
 Add fixby to your list of dependencies in `mix.exs` (when available in hex):
 
-    def deps do
-      [{:fixby, "~> 0.0.1"}]
-    end
+``` elixir
+def deps do
+  [{:fixby, "~> 0.0.1"}]
+end
 
 Then fetch it:
 

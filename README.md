@@ -2,7 +2,7 @@
 
 FIXBY comments that raise after a given version of Elixir.
 
-This is basically a copy of https://github.com/henrik/fixme-elixir, which raisesafter a certain date.
+This is basically a copy of https://github.com/henrik/fixme-elixir, which raises after a certain date.
 
     defmodule MyCode do
       import FIXBY

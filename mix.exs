@@ -15,7 +15,7 @@ defmodule Fixby.Mixfile do
   defp package do
     [
       licenses: ["MIT"],
-      contributors: ["Dennis Palmer"],
+      maintainers: ["Dennis Palmer"],
       links: %{"GitHub" => "https://github.com/CoderDennis/fixby-elixir"}
     ]
   end

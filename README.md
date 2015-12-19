@@ -29,7 +29,7 @@ Protip: make sure it's clear from the exception or from a separate comment just 
 
 ## Installation
 
-Add fixby to your list of dependencies in `mix.exs` (when available in hex):
+Add fixby to your list of dependencies in `mix.exs`:
 
 ``` elixir
 def deps do

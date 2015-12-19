@@ -25,7 +25,7 @@ Another consequence of running at compile time is that if you upgrade Elixir and
 
 Note that you need to explicitly import FIXBY because fixby is a macro.
 
-Protip: make sure it's clear from the exception or from a separate comment just what should be done –- sometimes not even the person who wrote the code will remember what you're meant to change.
+Protip: make sure it's clear from the exception or from a separate comment just what should be done – sometimes not even the person who wrote the code will remember what you're meant to change.
 
 ## Installation
 
